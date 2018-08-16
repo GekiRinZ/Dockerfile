@@ -29,7 +29,7 @@
  ```sh
  WORKDIR /script
  ```
-  Tổng hợp các phần trên hoàn chỉnh tạo ra 1 file `Dockerfile` như sau:
+ *Tổng hợp các phần trên hoàn chỉnh tạo ra 1 file `Dockerfile` như sau:
   ```sh
    FROM ubuntu:18.10
    MAINTAINER GekiRin
