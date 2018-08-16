@@ -2,7 +2,7 @@
 
 Sử dụng Docker Compose để chạy Wordpress trong một môi trường độc lập được build bởi Docker container.
 
-1. Cài đặt `docker-compose`:
+1. Cài đặt `docker-compose`: 
 ```sh
 pip install docker-compose
 ```
