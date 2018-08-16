@@ -59,3 +59,4 @@ docker-compose-wordpress_db_1 is up-to-date
 docker-compose-wordpress_wordpress_1 is up-to-date
 ```
 5.Tại thời điểm này, Wordpress sẽ chạy tại cổng 8000 của Docker Host,truy cập vào địa chỉ http://localhost:8000 ta được
+![](/Screenshot%20from%202018-08-16%2017-36-54.png)
