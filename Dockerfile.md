@@ -12,7 +12,7 @@
  ```sh
  RUN apt-get update && apt-get install -y net-tools iputils-ping && mkdir /script
  ```
- *Trong thư mục script, tạo 1 file script đơn giản `ping.sh`:
+  *Trong thư mục script, tạo 1 file script đơn giản `ping.sh`:
  ```sh
  #!/bin/bash
  ping 8.8.8.8
@@ -29,7 +29,7 @@
  ```sh
  WORKDIR /script
  ```
- *Tổng hợp các phần trên hoàn chỉnh tạo ra 1 file `Dockerfile` như sau:
+  *Tổng hợp các phần trên hoàn chỉnh tạo ra 1 file `Dockerfile` như sau:
   ```sh
    FROM ubuntu:18.10
    MAINTAINER GekiRin
