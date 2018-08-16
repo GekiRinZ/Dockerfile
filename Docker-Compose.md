@@ -58,5 +58,10 @@ Status: Downloaded newer image for wordpress:latest
 docker-compose-wordpress_db_1 is up-to-date
 docker-compose-wordpress_wordpress_1 is up-to-date
 ```
-5.Tại thời điểm này, Wordpress sẽ chạy tại cổng 8000 của Docker Host,truy cập vào địa chỉ http://localhost:8000 ta được
+5. Tại thời điểm này, Wordpress sẽ chạy tại cổng 8000 của Docker Host và ta có thể truy cập vào địa chỉ http://localhost:8000 và tiến hành các thao tác với Wordpress:
 ![](/Screenshot%20from%202018-08-16%2017-36-54.png)
+
+6. Tắt và dọn dẹp docker-compose:
+- Sử dụng lệnh `docker-compose down` để xóa containers và default network nhưng sẽ bảo toàn database của Wordpress.
+- Sử dụng lệnh `docker-compose down` để xóa toàn bộ containers, default network và database của Wordpress.
+
